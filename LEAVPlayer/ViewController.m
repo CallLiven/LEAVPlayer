@@ -33,9 +33,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor blackColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     
-    self.player = [[LEPlayer alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 220)];
+    self.player = [[LEPlayer alloc]init];
+    self.player.frame = CGRectMake(0,200, [UIScreen mainScreen].bounds.size.width, 220);
     self.player.autoPlay = YES;
     [self.view addSubview:self.player];
     

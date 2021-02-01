@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		337F70C724976D5B00881C04 /* UIViewController+LERotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 337F70BC24976D5B00881C04 /* UIViewController+LERotation.m */; };
+		337F70C824976D5B00881C04 /* UITabBarController+LERotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 337F70BE24976D5B00881C04 /* UITabBarController+LERotation.m */; };
+		337F70C924976D5B00881C04 /* UIView+LERotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 337F70C324976D5B00881C04 /* UIView+LERotation.m */; };
+		337F70CA24976D5B00881C04 /* UINavigationController+LERotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 337F70C424976D5B00881C04 /* UINavigationController+LERotation.m */; };
+		337F70CB24976D5B00881C04 /* LERotationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 337F70C524976D5B00881C04 /* LERotationManager.m */; };
+		337F70CE2498647500881C04 /* LEAVPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 337F70CD2498647500881C04 /* LEAVPlayerView.m */; };
 		339B160E248624F500331627 /* LEPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B160D248624F500331627 /* LEPlayer.m */; };
 		339B161224864E7A00331627 /* LEPlayerFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B161124864E7900331627 /* LEPlayerFunctionView.m */; };
 		339B16182486534600331627 /* fun_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 339B16142486534600331627 /* fun_play@3x.png */; };
@@ -59,6 +65,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		337F70BC24976D5B00881C04 /* UIViewController+LERotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LERotation.m"; sourceTree = "<group>"; };
+		337F70BD24976D5B00881C04 /* UIView+LERotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LERotation.h"; sourceTree = "<group>"; };
+		337F70BE24976D5B00881C04 /* UITabBarController+LERotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+LERotation.m"; sourceTree = "<group>"; };
+		337F70BF24976D5B00881C04 /* LERotationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LERotationManager.h; sourceTree = "<group>"; };
+		337F70C024976D5B00881C04 /* UINavigationController+LERotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+LERotation.h"; sourceTree = "<group>"; };
+		337F70C124976D5B00881C04 /* LERotationManagerDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LERotationManagerDefines.h; sourceTree = "<group>"; };
+		337F70C224976D5B00881C04 /* UIViewController+LERotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LERotation.h"; sourceTree = "<group>"; };
+		337F70C324976D5B00881C04 /* UIView+LERotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LERotation.m"; sourceTree = "<group>"; };
+		337F70C424976D5B00881C04 /* UINavigationController+LERotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+LERotation.m"; sourceTree = "<group>"; };
+		337F70C524976D5B00881C04 /* LERotationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LERotationManager.m; sourceTree = "<group>"; };
+		337F70C624976D5B00881C04 /* UITabBarController+LERotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+LERotation.h"; sourceTree = "<group>"; };
+		337F70CC2498647500881C04 /* LEAVPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEAVPlayerView.h; sourceTree = "<group>"; };
+		337F70CD2498647500881C04 /* LEAVPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEAVPlayerView.m; sourceTree = "<group>"; };
 		339B160C248624F500331627 /* LEPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEPlayer.h; sourceTree = "<group>"; };
 		339B160D248624F500331627 /* LEPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEPlayer.m; sourceTree = "<group>"; };
 		339B161024864E7900331627 /* LEPlayerFunctionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEPlayerFunctionView.h; sourceTree = "<group>"; };
@@ -139,18 +158,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		337F70BB24976D5B00881C04 /* LERotationManager */ = {
+			isa = PBXGroup;
+			children = (
+				337F70BF24976D5B00881C04 /* LERotationManager.h */,
+				337F70C524976D5B00881C04 /* LERotationManager.m */,
+				337F70C124976D5B00881C04 /* LERotationManagerDefines.h */,
+				337F70BD24976D5B00881C04 /* UIView+LERotation.h */,
+				337F70C324976D5B00881C04 /* UIView+LERotation.m */,
+				337F70C224976D5B00881C04 /* UIViewController+LERotation.h */,
+				337F70BC24976D5B00881C04 /* UIViewController+LERotation.m */,
+				337F70C024976D5B00881C04 /* UINavigationController+LERotation.h */,
+				337F70C424976D5B00881C04 /* UINavigationController+LERotation.m */,
+				337F70C624976D5B00881C04 /* UITabBarController+LERotation.h */,
+				337F70BE24976D5B00881C04 /* UITabBarController+LERotation.m */,
+			);
+			path = LERotationManager;
+			sourceTree = "<group>";
+		};
 		339B160F248624FD00331627 /* LEPlayer */ = {
 			isa = PBXGroup;
 			children = (
 				339B162E2487389000331627 /* LEPlayerConfig.h */,
 				339B160C248624F500331627 /* LEPlayer.h */,
 				339B160D248624F500331627 /* LEPlayer.m */,
+				337F70CC2498647500881C04 /* LEAVPlayerView.h */,
+				337F70CD2498647500881C04 /* LEAVPlayerView.m */,
 				339B161024864E7900331627 /* LEPlayerFunctionView.h */,
 				339B161124864E7900331627 /* LEPlayerFunctionView.m */,
 				339B16282486571B00331627 /* LEPlayerFunctionBottomView.h */,
 				339B16292486571B00331627 /* LEPlayerFunctionBottomView.m */,
 				339B162B2486573200331627 /* LEPlayerFunctionNavigationView.h */,
 				339B162C2486573200331627 /* LEPlayerFunctionNavigationView.m */,
+				337F70BB24976D5B00881C04 /* LERotationManager */,
 				33EDF4C02484F7C9005BA703 /* LEAVPlayerCache */,
 				339B1613248651C700331627 /* LEAssetSource */,
 			);
@@ -397,9 +437,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				339B16352488949800331627 /* SecondViewController.m in Sources */,
+				337F70C724976D5B00881C04 /* UIViewController+LERotation.m in Sources */,
+				337F70C824976D5B00881C04 /* UITabBarController+LERotation.m in Sources */,
 				339B162D2486573200331627 /* LEPlayerFunctionNavigationView.m in Sources */,
 				33EDF4D12484F7C9005BA703 /* LERequestContentInfo.m in Sources */,
 				339B162A2486571B00331627 /* LEPlayerFunctionBottomView.m in Sources */,
+				337F70CE2498647500881C04 /* LEAVPlayerView.m in Sources */,
 				339B160E248624F500331627 /* LEPlayer.m in Sources */,
 				33EDF4842484F6E9005BA703 /* ViewController.m in Sources */,
 				33EDF47E2484F6E9005BA703 /* AppDelegate.m in Sources */,
@@ -408,9 +451,12 @@
 				33EDF4CE2484F7C9005BA703 /* LERequestCacheManager.m in Sources */,
 				33EDF4D22484F7C9005BA703 /* LERequestDowndloader.m in Sources */,
 				339B161224864E7A00331627 /* LEPlayerFunctionView.m in Sources */,
+				337F70CB24976D5B00881C04 /* LERotationManager.m in Sources */,
 				33EDF4CD2484F7C9005BA703 /* LERequestFragment.m in Sources */,
 				33EDF4812484F6E9005BA703 /* SceneDelegate.m in Sources */,
 				33EDF4D02484F7C9005BA703 /* LEResourceLoaderManager.m in Sources */,
+				337F70C924976D5B00881C04 /* UIView+LERotation.m in Sources */,
+				337F70CA24976D5B00881C04 /* UINavigationController+LERotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
